@@ -1,4 +1,4 @@
-cd ~/Streamwave\scripts\eventsim
+cd ~/Streamwave\scripts\eventsim_startup.sh
 
 echo "Building Eventsim Image..."
 docker build -t events:1.0 .
