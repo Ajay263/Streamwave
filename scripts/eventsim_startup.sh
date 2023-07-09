@@ -20,7 +20,3 @@ docker run -itd \
     --kafkaBrokerList localhost:9092 \
     --randomseed 1 \
     --continuous
-
-echo "Started streaming events for 1 Million users..."
-echo "Eventsim is running in detached mode. "
-echo "Run 'docker logs --follow million_events' to see the logs."
